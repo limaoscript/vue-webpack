@@ -33,7 +33,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     //自动根据bundle生成html
     new HtmlWebpackPlugin({
-      title: '输出管理'
+      title: 'vue+webpack'
     })
   ]
 };
